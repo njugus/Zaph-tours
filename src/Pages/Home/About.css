@@ -1,0 +1,45 @@
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    padding: 15px;
+    background-color: #e0e6f3;
+}
+
+.about-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3572EF;
+    font-family: var(--secondary-font);
+    color:  white;
+}
+
+.about-img{
+    border: 1px solid gray;
+    width: 40%;
+    height: 60vh;
+    border-radius: 10px;
+
+}
+
+.about-heading{
+    margin: auto;
+    font-family: var(--primary-font);
+}
+.zaph-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+
+}
+

@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #050C9C;
+    color: white;
+    border-radius: 5px;
+}
+
+.header-logo{
+    padding: 20px;
+
+}
+
+.navbar{
+    padding: 10px;
+    margin-top: 1rem;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-decoration: none;
+    
+}
+.list-item{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.list-item  :hover{
+    transition: all 0.5s; 
+}
+
