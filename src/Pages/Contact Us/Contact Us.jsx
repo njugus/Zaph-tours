@@ -17,6 +17,7 @@ function Contact() {
                 <div className='contact-credentials'>
                     <p>Zaphtours@gmail.com</p>
                     <p>Phone : +254110080435</p>
+                    <p>P.O. Box 12345-00100 Nairobi, Kenya</p>
 
                 </div>
             </div>
