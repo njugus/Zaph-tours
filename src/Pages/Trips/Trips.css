@@ -1,0 +1,40 @@
+.packages-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    background-color: lavender;
+
+    
+}
+
+.trip-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: lavender;
+}
+
+.heads{
+    font-size: 40px;
+}
+
+@media screen and (max-width : 600px){
+    .packages-details{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .trip-heading{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden ;
+    }
+    
+}

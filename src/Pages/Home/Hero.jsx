@@ -1,4 +1,4 @@
-import myCollection from '../../Data/Data'
+
 import hero from '../../assets/hero-section-3.jpg'
 import './Hero.css'
 

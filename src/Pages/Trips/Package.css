@@ -1,0 +1,18 @@
+.package{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    max-width: 300px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.package:hover{
+    background-color: #3ABEF9; 
+    transform: scale(1.05);
+}
