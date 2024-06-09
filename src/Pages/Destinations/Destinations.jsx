@@ -11,13 +11,13 @@ import aberdare from '../../assets/aberdares.jpg'
 function Destinations() {
     return (
     
-        <>        
+         <>
         <section className='destin-heading'>
         <h1>Top Destinations Await You</h1>
         </section>
+        
 
         <section className="destinations">
-
         <div className="destinations-wrapper">
          <div className="destination-img">
         <img src={amboseli} alt='a picture of amboseli park' className='destination-image'/>
@@ -171,12 +171,13 @@ function Destinations() {
         </div>
 
     </div>
-
+    
         </section>
-
+        
         </>
-      
+     
     )
 }
+
 
 export default Destinations;

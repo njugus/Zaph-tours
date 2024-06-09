@@ -1,6 +1,15 @@
 import './Contact.css'
+import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
+import { MdLocationOn } from "react-icons/md";
+
+
 function Contact() {
     return (
+        <>
+        <section className="contactheading">
+            <h1>Contact Us</h1>
+        </section>
         <section className="contact-section"> 
             <div className="form-section">
                 <form action="/" method="" className="main">
@@ -15,9 +24,9 @@ function Contact() {
                     <button type="button">Submit</button>
                 </form>
                 <div className='contact-credentials'>
-                    <p>Zaphtours@gmail.com</p>
-                    <p>Phone : +254110080435</p>
-                    <p>P.O. Box 12345-00100 Nairobi, Kenya</p>
+                    <p><span><MdEmail/></span>  Zaphtours@gmail.com</p>
+                    <p><span><FaPhone/></span>  Phone : +254110080435</p>
+                    <p><span><MdLocationOn/></span>  P.O. Box 12345-00100 Nairobi, Kenya</p>
 
                 </div>
             </div>
@@ -31,9 +40,11 @@ function Contact() {
                     allowFullScreen="" 
                     aria-hidden="false" 
                     tabIndex="0"
+                    className='map'
                 ></iframe>
             </div>
         </section>
+        </>
     );
 }
 

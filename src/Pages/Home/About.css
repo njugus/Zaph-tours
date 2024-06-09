@@ -1,11 +1,28 @@
 .about-section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
     gap: 2rem;
     padding: 15px;
     background-color: #e0e6f3;
+    width: 100vh;
+    margin: 0;
+}
+
+@media  screen and (max-width : 600px){
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-description{
+        width: 100%;
+    }
+    
 }
 
 .about-description{

@@ -1,0 +1,40 @@
+.footer{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.footer-content{
+    
+    padding: 5px;
+}
+.social-media{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 5px;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen  and (max-width : 600px){
+    .footer{
+        width: 100vh;
+        margin: 0;
+    }
+    
+}

@@ -2,9 +2,12 @@
     border: 1px solid gray;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     padding: 5px;
+    width: 100vh;
+    margin: 0;
 }
 
 .destination-wrapper{

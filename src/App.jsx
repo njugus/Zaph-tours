@@ -8,6 +8,7 @@ import Destinations from './Pages/Destinations/Destinations'
 import Trips from './Pages/Trips/Trips'
 import Home from './Pages/Home/Home.jsx'
 import Contact from './Pages/Contact Us/Contact Us'
+import Footer from './Footer/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Trips" element={<Trips />} />
         <Route path="/Contact Us" element={<Contact />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </>
   )

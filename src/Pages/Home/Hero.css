@@ -1,7 +1,11 @@
+.hero-section{
+    width: 100vh;
+    margin: 0;
+}
+
 .hero-img {
     border: 1px solid gray;
     height: 80vh;
-    margin-top: 2rem;
     position: relative;
     overflow: hidden;
 }

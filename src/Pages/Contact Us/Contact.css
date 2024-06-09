@@ -2,15 +2,25 @@
     border: 1px solid gray;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     background-color: #1a1d2f;
     color: white;
-    margin: 1rem;
+    margin: 0;
     padding: 10px;
+    box-sizing: border-box;
+    width: 100vh;
+    margin: 0;
 
 }
 
+.contactheading{
+    text-align: center;
+}
+.subhead{
+    font-size: 20px;
+}
 .form-section{
     border: 1px solid gray;
     padding: 10px;
@@ -20,6 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
 }
 
@@ -37,7 +48,10 @@
 .map-section{
     border: 1px solid gray;
     padding: 10px;
+    max-width: 90%;
+    width: 100%;
 }
+
 
 input{
     border-radius: 5px;
@@ -48,3 +62,11 @@ input{
 #message{
     border-radius: 5px;
 }
+
+span{
+    margin-right: 5px;
+}
+
+
+
+

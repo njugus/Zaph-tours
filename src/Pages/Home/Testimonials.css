@@ -1,12 +1,25 @@
 .testimonies{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     padding: 20px;
     background-color: lavender;
     border-radius: 5px;
+    width: 100vh;
+    margin: 0;
 
+}
+
+@media screen and (max-width: 600px) {
+    .testimonies{
+        gap: 5rem;
+    }
+    .testimony-wrapper{
+        max-width: 50%;
+    }
+    
 }
 .testimony-wrapper{
     display: flex;
