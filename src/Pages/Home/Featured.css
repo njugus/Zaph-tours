@@ -6,7 +6,6 @@
     justify-content: center;
     gap: 1rem;
     padding: 5px;
-    width: 100vh;
     margin: 0;
 }
 
@@ -18,6 +17,13 @@
     width: 100%;
     max-width: 20%;
     justify-content: flex-start;
+    
+}
+
+@media screen  and (max-width: 600px){
+    .featured-destinations{
+        width: 200vh;
+    }
     
 }
 
