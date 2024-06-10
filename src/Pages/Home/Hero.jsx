@@ -1,12 +1,12 @@
 
-import hero from '../../assets/hero-section-3.jpg'
+import hero from '../../assets/Hero section 5.jpg'
 import './Hero.css'
 
 
 function Hero() {
     return(
 
-        <section className='hero-section'>
+        <section className="hero-section">
         <div className='hero-img'>
         <img src={hero} alt='An image of hero section' className='img'/>
 

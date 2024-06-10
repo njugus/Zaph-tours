@@ -1,5 +1,4 @@
 .featured-destinations{
-    border: 1px solid gray;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

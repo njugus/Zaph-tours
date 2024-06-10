@@ -1,6 +1,7 @@
 .hero-section{
     width: 200vh;
-    margin: 0;
+    /* margin: 0; */
+    margin-bottom: 2rem;
 }
 
 .hero-img {
