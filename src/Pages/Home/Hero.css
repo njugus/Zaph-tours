@@ -1,5 +1,6 @@
 .hero-section{
-    width: 200vh;
+    max-width: 200vh;
+    width: 100%;
     /* margin: 0; */
     margin-bottom: 2rem;
 }
